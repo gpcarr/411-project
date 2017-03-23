@@ -13,6 +13,6 @@ from django.conf.urls import url
 from OWMapp import views
 
 urlpatterns = [
-  url(r'^$', views.index, name='index'),
-  url(r'^weather/$', views.weather, name='weather'),
+    url(r'^$', views.index, name='index'),
+    url(r'^weather/$', views.weather, name='weather'),
 ]
